@@ -153,7 +153,7 @@ class _LoginViewState extends State<LoginView> {
                       onPressed: () {},),
                   ),
 
-                  const SizedBox(height: 180),
+                  const SizedBox(height: 580),
                 ],
               ),
             ),
