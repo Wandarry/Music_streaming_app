@@ -9,12 +9,12 @@ class WelcomeView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    Timer(const Duration(seconds: 3), (
-      Get.to(const LoginView())
-    ));
+    //Timer(const Duration(seconds: 3), () {
+      //Get.to(const LoginView());
+    //});
     return Scaffold(
       body: Container(
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           image: DecorationImage(
             image: AssetImage('assets/images/backgroundImg.png'),
             fit: BoxFit.cover,
