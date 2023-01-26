@@ -7,11 +7,11 @@ import 'package:miziki_app/view/loginView.dart';
 class WelcomeView extends StatelessWidget {
   const WelcomeView({super.key});
 
+
+
   @override
   Widget build(BuildContext context) {
-    //Timer(const Duration(seconds: 3), () {
-      //Get.to(const LoginView());
-    //});
+    
     return Scaffold(
       body: Container(
         decoration: const BoxDecoration(

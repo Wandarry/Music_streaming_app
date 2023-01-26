@@ -9,8 +9,10 @@ class LoginView extends StatefulWidget {
 }
 
 class _LoginViewState extends State<LoginView> {
+  
   final _mailController = TextEditingController();
   final _formKey = new GlobalKey<FormState>();
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
